@@ -1,0 +1,93 @@
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+
+	<style type="text/css">
+	</style>
+</head>
+<body>
+	<!-- Buttons -->
+	<div class="container">
+		<h3>Buttons</h3>
+		<a class="waves-effect waves-light btn">Stuff</a>
+		<a class="waves-effect waves-light btn"><i class="mdi-file-cloud left"></i>button</a>
+		<a class="waves-effect waves-light btn"><i class="mdi-file-cloud right"></i>button</a>
+		<a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-content-add"></i></a>
+	</div>
+
+	<br><br><br>
+
+	<!-- Form -->
+	<div class="container">
+		<div class="row">
+		  <h3>Form</h3>
+		  <form class="col s12">
+		    <div class="row">
+		      <div class="input-field col s6">
+		        <input id="first_name" type="text" class="validate">
+		        <label for="first_name">First Name</label>
+		      </div>
+		      <div class="input-field col s6">
+		        <input id="last_name" type="text" class="validate">
+		        <label for="last_name">Last Name</label>
+		      </div>
+		    </div>
+		    <div class="row">
+		      <div class="input-field col s12">
+		        <input id="username" type="text" class="validate">
+		        <label for="username">Username</label>
+		      </div>
+		    </div>
+		    <div class="row">
+		      <div class="input-field col s12">
+		        <input id="password" type="password" class="validate">
+		        <label for="password">Password</label>
+		      </div>
+		    </div>
+		    <div class="row">
+		      <div class="input-field col s12">
+		        <input id="email" type="email" class="validate">
+		        <label for="email">Email</label>
+		      </div>
+		    </div>
+		  </form>
+		</div>
+	</div>
+
+	<!-- Icons -->
+	<div class="container">
+		<h3>Icon</h3>
+		<i class="small mdi-content-add"></i>
+		<i class="medium mdi-content-add"></i>
+		<i class="large mdi-content-add"></i>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<h3>Tabs</h3>
+			<div class="col s12">
+			  <ul class="tabs">
+			    <li class="tab col s3"><a href="#test1">Test 1</a></li>
+			    <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+			    <li class="tab col s3"><a href="#test3">Test 3</a></li>
+			    <li class="tab col s3"><a href="#test4">Test 4</a></li>
+			  </ul>
+			</div>
+			<div id="test1" class="col s12">Test 1</div>
+			<div id="test2" class="col s12">Test 2</div>
+			<div id="test3" class="col s12">Test 3</div>
+			<div id="test4" class="col s12">Test 4</div>
+		</div>
+	</div>
+
+	<!-- jQuery is required by Materialize to function -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript">
+	</script>  
+</body>
+</html>
